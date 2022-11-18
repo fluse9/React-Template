@@ -8,7 +8,7 @@ const App = () => {
 	const theme = useTheme();
 
 	let body = window?.document?.body;
-	body.style.backgroundColor = theme?.palette?.black?.dark;
+	body.style.backgroundColor = theme?.palette?.white?.main;
 	body.style.padding = '8px';
 
 	return (
